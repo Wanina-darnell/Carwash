@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "723166312174",
+    "project_id": "barcade-carwash",
+    "storage_bucket": "barcade-carwash.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723166312174:android:b1b9810b6429cc5fec65ff",
+        "android_client_info": {
+          "package_name": "com.barcade.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723166312174-fh3tor2tvki0trobsbh5trnq1nat8fbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5G5BD9111_AwzsGZNZRAhLKNoZrfbpAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723166312174-fh3tor2tvki0trobsbh5trnq1nat8fbh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "723166312174-11q7hnjtg8gn4g5o9988l083i6dq4kgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.customerApp"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:723166312174:android:e23bf2f8992e9370ec65ff",
+        "android_client_info": {
+          "package_name": "com.barcade.driver"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "723166312174-fh3tor2tvki0trobsbh5trnq1nat8fbh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5G5BD9111_AwzsGZNZRAhLKNoZrfbpAE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "723166312174-fh3tor2tvki0trobsbh5trnq1nat8fbh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "723166312174-11q7hnjtg8gn4g5o9988l083i6dq4kgp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.customerApp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

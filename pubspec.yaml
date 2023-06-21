@@ -1,0 +1,77 @@
+name: customer_app
+description: A new Flutter project.
+publish_to: "none"
+version: 1.0.0+4
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  #Firebase
+  cloud_firestore: ^4.5.0
+  equatable: ^2.0.5
+  firebase_auth: ^4.2.5
+  firebase_core: ^2.4.1
+  flutter_local_notifications: ^14.0.0-dev.2
+  firebase_messaging: ^14.4.0
+  geoflutterfire2: ^2.3.14
+  firebase_storage: ^11.0.10
+
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  google_maps_flutter: any
+  go_router: ^8.0.5
+  table_calendar: ^3.0.8
+  flutter_time_picker_spinner: ^2.0.0
+  email_validator: ^2.1.17
+  keyboard_dismisser: ^3.0.0
+  json_annotation: ^4.8.0
+  dio: ^5.1.1
+  text_scroll: ^0.2.0
+  intl: ^0.18.1
+  image_picker: ^0.8.6+1
+  intl_phone_field: ^3.1.0
+  url_launcher: ^6.1.8
+  cached_network_image: ^3.2.3
+  flutter_rating_bar: ^4.0.1
+  flutter_polyline_points: ^1.0.0
+  flutter_inappwebview: ^5.7.2+3
+  flutter_html: ^3.0.0-alpha.6
+  flutter_svg: any
+  get_it: ^7.2.0
+  path: ^1.8.2
+
+  shared_preferences: ^2.0.17
+  sized_context: ^1.0.0+1
+  another_flushbar: ^1.12.29
+
+  location: ^4.4.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^2.3.3
+  json_serializable: ^6.6.0
+  flutter_lints: ^2.0.1
+  flutter_launcher_icons: ^0.13.1
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/images/new_app_icon.png"
+
+flutter_native_splash:
+  image: assets/images/splash.png
+  color: "#FCE94E"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/docs/
+    - assets/fonts/    - assets/images/
+  fonts:
+    - family: WorkSans
+      fonts:
+        - asset: assets/fonts/WorkSans-VariableFont_wght.ttf
